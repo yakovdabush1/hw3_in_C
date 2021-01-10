@@ -39,7 +39,7 @@ int getWord(char w[]) {
     return -1; 
     *(wPt-1) = '\0';
     return --count; //we return --count because when reached either EOF, '\n', '\t', ' 'we add one extra.
-
+}
 
 //returns 1 if str2 is a substring of str1.
 // returns  0 in other case.
